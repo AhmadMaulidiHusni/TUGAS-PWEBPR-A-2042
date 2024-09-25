@@ -1,0 +1,753 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+@media (min-width: 1280px) {
+    .navbar {
+        top: 0;
+        height: 50px;
+        font-weight: 600;
+        gap: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #d9d9d9;
+    }
+
+    .kru {
+        width: 100%;    
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar a {
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .content {
+        width: 100%;
+        gap: 100px;
+        margin-top: 3%;
+        margin-left: -36px;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .kiri {
+        width: 490px;
+        height: 612px;
+    }
+
+    .luffy {
+        width: 490px;
+        height: 180px;
+        border-radius: 20px;
+        margin-left: 16%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        background-color: #FFF4DC;
+    }
+
+    .luffy h3 {
+        font-size: 28px;
+        font-weight: 500;
+    }
+
+    .luffy h6 {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .luffy button {
+        top: 60%;
+        width: 240px;
+        height: 37px;
+        margin-top: 10px;
+        border-radius: 15px;
+        border-style: none;
+        position: absolute;
+        color: #ffffff;
+        background-color: #e29a00;
+    }
+
+    .img-luffy {
+        width: 45%;
+    }
+
+    .luffy img {
+        top: -27%;
+        width: 240px;
+        position: absolute;
+    }
+
+    .text-luffy {
+        margin-top: -20%;
+        gap: 5px;
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    
+    .kiri-bawah {
+        width: 490px;
+        height: 392px;
+        margin-left: 16%;
+        margin-top: 40px ;
+        position: relative;
+        display: flex;
+    }
+
+    .kiri-1 {
+        width: 50%;
+    }
+
+    .kiri-2 {
+        width: 50%;
+    }
+
+    .zoro {
+        width: 235px;
+        height: 180px;
+        position: relative;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #E1FFDC;
+    }
+
+    .zoro img {
+        z-index: 1;
+        position: absolute;
+    }
+
+    .zoro button {
+        z-index: 2;
+        width: 173px;
+        height: 37px;
+        margin-top: 55%;
+        border-radius: 15px;
+        border-style: none;
+        color: #ffffff;
+        background-color: #7EB782;
+    }
+
+    .nami {
+        width: 230px;
+        height: 180px;
+        margin-top: 32px;
+        border-radius: 20px;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffced7;
+    }
+
+    .nami button {
+        width: 173px;
+        height: 37px;
+        margin-top: 55%;
+        border-radius: 15px;
+        position: relative;
+        border-style: none;
+        color: #ffffff;
+        background-color: #ff5573;
+    }
+
+    .nami img {
+        margin-bottom: 3px;
+        position: absolute;
+    }
+
+    .sanji {
+        width: 230px;
+        height: 392px;
+        margin-left: 17px;
+        border-radius: 20px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #E2F2FF;
+    }
+
+    .sanji button {
+        width: 173px;
+        height: 37px;
+        top: 80%;
+        border-radius: 15px;
+        position: absolute;
+        border-style: none;
+        color: #ffffff;
+        background-color: #3279AF;
+    }
+
+    .sanji h3 {
+        font-weight: 500;
+        font-size: 20px;
+        margin-top: 100px;
+    }
+
+    .sanji h6 {
+        width: 120px;
+        margin-top: 7px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .sanji img {
+        top: 3%;
+        position: absolute;
+    }
+
+    .kanan {
+        width: 500px;
+        height: 612px;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .kanan-atas {
+        width: 500px;
+        height: 392px;
+        border-radius: 20px;
+        position: relative;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #f4f4f4;
+    }
+
+    .usopp {
+        width: 423px;
+        height: 96px;
+        border-radius: 20px;
+        border-style: solid;
+        position: relative;
+        display: flex;
+        border-color: #d8d6c1;
+        background-color: #ffffff;
+    }
+
+    .usopp img {
+        width: 18%;
+        margin-top: 12px;
+        margin-left: 15px;
+        position: absolute;
+    }
+
+    .usopp button {
+        width: 149px;
+        height: 22px;
+        margin-left: 25%;
+        margin-top: 14.1%;
+        border-radius: 10px;
+        border-style: none;
+        position: relative;
+        color: #ffffff;
+        background-color: #d8d6c1;
+    }
+
+    .usopp h3 {
+        margin-left: -35%;
+        margin-top: 21px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .chopper {
+        width: 423px;
+        height: 96px;
+        border-radius: 20px;
+        border-style: solid;
+        position: relative;
+        display: flex;
+        border-color: #d8d6c1;
+        background-color: #ffffff;
+    }
+
+    .chopper img {
+        width: 18%;
+        margin-top: 3px;
+        margin-left: 15px;
+        position: absolute;
+    }
+
+    .chopper button {
+        width: 149px;
+        height: 22px;
+        margin-left: 25%;
+        margin-top: 14.1%;
+        border-radius: 10px;
+        border-style: none;
+        position: relative;
+        color: #ffffff;
+        background-color: #d8d6c1;
+    }
+
+    .chopper h3 {
+        margin-left: -35%;
+        margin-top: 21px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .robin {
+        width: 423px;
+        height: 96px;
+        border-radius: 20px;
+        border-style: solid;
+        position: relative;
+        display: flex;
+        border-color: #d8d6c1;
+        background-color: #ffffff;
+    }
+
+    .robin img {
+        width: 18%;
+        margin-top: 8px;
+        margin-left: 15px;
+        position: absolute;
+    }
+
+    .robin button {
+        width: 149px;
+        height: 22px;
+        margin-top: 14.1%;
+        margin-left: 25%;
+        border-radius: 10px;
+        border-style: none;
+        position: relative;
+        color: #ffffff;
+        background-color: #d8d6c1;
+    }
+
+    .robin h3 {
+        margin-left: -35%;
+        font-size: 20px;
+        margin-top: 21px;
+        font-weight: 500;
+    }
+
+    .kanan-bawah {
+        width: 500px;
+        height: 180px;
+        border-radius: 20px;
+        margin-top: 43px;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #f4f4f4;
+    }
+
+    .brook {
+        width: 235px;
+        height: 180px;
+        display: flex;
+        padding-left: 120px;
+        flex-direction: column-reverse;
+    }
+
+    .brook button {
+        width: 100px;
+        height: 55px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        border-style: none;
+        color: #ffffff;
+        background-color: #d8d6c1;
+    }
+
+    .brook img {
+        top: 40px;
+        margin-left: -120px;
+        position: absolute;
+    }
+
+    .brook h3 {
+        margin-bottom: 10px;
+        font-weight: 400;
+    }
+
+    .jinbe {
+        width: 235px;
+        height: 180px;
+        display: flex;
+        padding-left: 120px;
+        flex-direction: column-reverse;
+    }
+
+    .jinbe button {
+        width: 100px;
+        height: 55px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        border-style: none;
+        color: #ffffff;
+        background-color: #d8d6c1;
+    }
+
+    .jinbe img {
+        top: 55px;
+        margin-left: -130px;
+        position: absolute;
+    }
+
+    .jinbe h3 {
+        margin-bottom: 10px;
+        font-weight: 400;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .content {
+        margin-top: 20px;
+        padding-bottom: 60px;
+        position: relative;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .kru {
+        width: 100%;
+        margin-top: 50px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar {
+        width: 100%;
+        height: 40px;
+        bottom: 0;
+        z-index: 3;
+        font-weight: 600;
+        gap: 30px;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #d9d9d9;
+    }
+
+    .navbar a {
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .luffy {
+        width: 289px;
+        height: 299px;
+        margin-top: 100px;
+        border-radius: 20px;
+        display: flex-end;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        background-color: #fff4dc;
+    }
+
+    .luffy h3 {
+        font-weight: 500;
+        font-size: 24px;
+        margin-top: 8px;
+    }
+
+
+    .luffy h6 {
+        font-weight: 500;
+        font-size: 12px;
+    }
+
+    .luffy button {
+        width: 212px;
+        height: 45px;
+        margin-top: 60%;
+        border-radius: 15px;
+        position: relative;
+        border-style: none;
+        color: #ffffff;
+        background-color: #e29a00;
+    }
+
+    .luffy img {
+    position: absolute;
+    width: 240px;
+    top: -18%;
+    left: 9%;
+    }
+
+    .zoro {
+        position: relative;
+        width: 289px;
+        height: 221px;
+        margin-top: 30px;
+        border-radius: 20px;
+        background-color: #e1ffdc;
+    }
+
+    .zoro button {
+        width: 212px;
+        height: 45px;
+        border-radius: 15px;
+        margin-top: 50%;
+        z-index: 2;
+        border-style: none;
+        position: relative;
+        color: #ffffff;
+        background-color: #7eb782;
+    }
+
+    .zoro img {
+        left: 0;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        z-index: 1;
+    }
+
+    .nami {
+        width: 289px;
+        height: 239px;
+        margin-top: 30px;
+        border-radius: 20px;
+        position: relative;
+        background-color: #ffced7;
+    }
+
+    .nami button {
+        width: 212px;
+        height: 45px;
+        margin-top: 60%;
+        border-radius: 15px;
+        z-index: 2;
+        border-style: none;
+        position: relative;
+        color: #ffffff;
+        background-color: #ff5573;
+    }
+
+    .nami img {
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        z-index: 1;
+        position: absolute;
+    }
+
+    .sanji {
+        width: 289px;
+        height: 299px;
+        margin-top: 70px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        background-color: #e2f2ff;
+    }
+
+    .sanji button {
+        width: 212px;
+        height: 45px;
+        margin-top: 60%;
+        border-radius: 15px;
+        position: relative;
+        border-style: none;
+        color: #ffffff;
+        background-color: #3279af;
+    }
+
+    .sanji img {
+        width: 100%;
+        top: -21%;
+        left: 0%;
+        position: absolute;
+    }
+
+    .sanji h3 {
+        font-weight: 600;
+        font-size: 22px;
+    }
+
+
+    .sanji h6{
+        width: 180px;
+        font-weight: 500;
+    }
+
+    .usopp {
+        height: 221px;
+        width: 289px;
+        margin-top: 30px;
+        border-radius: 20px;
+        position: relative;
+        background-color: #e9e8e2;
+    }
+
+    .usopp button {
+        width: 212px;
+        height: 45px;
+        margin-top: 57%;
+        border-radius: 15px;
+        position: relative;
+        border-style: none;
+        z-index: 2;
+        color: #ffffff;
+        background-color: #cac8b3;
+    }
+
+    .usopp img {
+        width: 80%;
+        z-index: 1;
+        bottom: -7%;
+        position: absolute;
+    }
+
+    .chopper {
+        height: 221px;
+        width: 289px;
+        margin-top: 30px;
+        border-radius: 20px;
+        position: relative;
+        background-color: #e9e8e2;
+    }
+
+    .chopper button {
+        width: 212px;
+        height: 45px;
+        margin-top: 57%;
+        border-radius: 15px;
+        border-style: none;
+        position: relative;
+        z-index: 2;
+        color: #ffffff;
+        background-color: #cac8b3;
+    }
+
+    .chopper img {
+        width: 77%;
+        z-index: 1;
+        bottom: -7%;
+        position: absolute;
+    }
+
+    .robin {
+        height: 221px;
+        width: 289px;
+        margin-top: 30px;
+        border-radius: 20px;
+        position: relative;
+        background-color: #e9e8e2;
+    }
+
+    .robin button {
+        width: 212px;
+        height: 45px;
+        margin-top: 57%;
+        border-radius: 15px;
+        border-style: none;
+        position: relative;
+        z-index: 2;
+        color: #ffffff;
+        background-color: #cac8b3;
+    }
+
+    .robin img {
+        width: 77%;
+        z-index: 1;
+        bottom: -3%;
+        position: absolute;
+    }
+
+    .brook {
+        height: 221px;
+        width: 289px;
+        margin-top: 30px;
+        border-radius: 20px;
+        position: relative;
+        background-color: #ffdbc5;
+    }
+
+    .brook button {
+        width: 212px;
+        height: 45px;
+        margin-top: 57%;
+        border-radius: 15px;
+        border-style: none;
+        z-index: 2;
+        position: relative;
+        color: #ffffff;
+        background-color: #e36415;
+    }
+
+    .brook img {
+        width: 67%;
+        z-index: 1;
+        bottom: -3%;
+        position: absolute;
+    }
+
+    .jinbe {
+        height: 221px;
+        width: 289px;
+        margin-top: 30px;
+        border-radius: 20px;
+        position: relative;
+        background-color: #8FC5ED;
+    }
+
+    .jinbe button {
+        width: 212px;
+        height: 45px;
+        margin-top: 57%;
+        border-radius: 15px;
+        border-style: none;
+        z-index: 2;
+        position: relative;
+        color: #ffffff;
+        background-color: #275E87;
+    }
+
+    .jinbe img {
+        width: 80%;
+        z-index: 1;
+        bottom: -3%;
+        position: absolute;
+    }
+
+    .usopp h3,
+    .chopper h3,
+    .robin h3,
+    .brook h3,
+    .jinbe h3 {
+        display: none;
+    }
+}
